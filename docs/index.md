@@ -4,5 +4,5 @@ Blender 4.2+ 対応のビューポートスライダーコントロールアド�
 
 言語を選択してください / Select your language:
 
-- [日本語マニュアル](ja/index.md)
 - [English Manual](en/index.md)
+- [日本語マニュアル](ja/index.md)
