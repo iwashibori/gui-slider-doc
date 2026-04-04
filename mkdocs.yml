@@ -1,6 +1,6 @@
 site_name: GUI Slider - User Manual
 site_description: Blender addon for viewport slider controls
-site_url: ""
+site_url: https://iwashibori.github.io/gui-slider-doc/
 
 theme:
   name: material

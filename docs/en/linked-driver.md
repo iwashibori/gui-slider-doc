@@ -5,8 +5,8 @@ Linked Driver lets a single slider drive **multiple targets** at once.
 In addition to the driver initially assigned to the slider (the Primary Driver), you can create additional drivers that follow the same slider's movement. This is useful when you want to toggle both `hide_viewport` and `hide_render` with one slider, or control multiple node parameters together.
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-  <img src="../images/linked_driver_left.png" alt="Linked Driver panel" style="max-height: 400px;">
-  <img src="../images/linked_driver_right.png" alt="Linked Driver dialog" style="max-height: 400px;">
+  <img src="../../images/linked_driver_left.png" alt="Linked Driver panel" style="max-height: 400px;">
+  <img src="../../images/linked_driver_right.png" alt="Linked Driver dialog" style="max-height: 400px;">
 </div>
 
 ## Target Types

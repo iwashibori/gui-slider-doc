@@ -29,8 +29,8 @@
 ### Base Scale
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-  <img src="../images/base_scale_left.png" alt="Base Scale 小さいモデル" style="max-height: 300px;">
-  <img src="../images/base_scale_right.png" alt="Base Scale 大きいモデル" style="max-height: 300px;">
+  <img src="../../images/base_scale_left.png" alt="Base Scale 小さいモデル" style="max-height: 300px;">
+  <img src="../../images/base_scale_right.png" alt="Base Scale 大きいモデル" style="max-height: 300px;">
 </div>
 
 - 新規コンテナ作成時の `Container Scale` の初期値として適用される

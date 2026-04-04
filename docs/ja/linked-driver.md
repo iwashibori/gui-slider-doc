@@ -5,8 +5,8 @@ Linked Driver は、1つのスライダーで **複数のターゲット** を�
 スライダーに最初に設定されるドライバー（Primary Driver）に加えて、同じスライダーの動きに連動する追加のドライバーを作成できる。1つのスライダーで `hide_viewport` と `hide_render` を同時に切り替えたり、複数のノードパラメータを1つのスライダーでまとめて制御したい場合に便利。
 
 <div style="display: flex; gap: 1em; flex-wrap: wrap;">
-  <img src="../images/linked_driver_left.png" alt="Linked Driver パネル" style="max-height: 400px;">
-  <img src="../images/linked_driver_right.png" alt="Linked Driver ダイアログ" style="max-height: 400px;">
+  <img src="../../images/linked_driver_left.png" alt="Linked Driver パネル" style="max-height: 400px;">
+  <img src="../../images/linked_driver_right.png" alt="Linked Driver ダイアログ" style="max-height: 400px;">
 </div>
 
 ## ターゲットタイプ
