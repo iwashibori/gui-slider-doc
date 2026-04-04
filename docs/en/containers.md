@@ -28,10 +28,10 @@ A container is the box that groups and manages sliders or joysticks.
 
 ### Base Scale
 
-![Base Scale small model](../images/base_scale_left.png){ align=left }
-![Base Scale large model](../images/base_scale_right.png){ align=right }
-
-<div style="clear: both;"></div>
+<div style="display: flex; gap: 1em; flex-wrap: wrap;">
+  <img src="../images/base_scale_left.png" alt="Base Scale small model" style="max-height: 300px;">
+  <img src="../images/base_scale_right.png" alt="Base Scale large model" style="max-height: 300px;">
+</div>
 
 - Applied as the default `Container Scale` when creating new containers
 - Does not affect existing containers
