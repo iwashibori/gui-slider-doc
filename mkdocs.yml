@@ -37,14 +37,6 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - 日本語:
-    - 概要: ja/index.md
-    - コンテナ / カラム: ja/containers.md
-    - スライダー / ジョイスティック: ja/sliders.md
-    - Quick View: ja/quick-view.md
-    - Dual Controller: ja/dual-controller.md
-    - Linked Driver: ja/linked-driver.md
-    - その他 / プリファレンス: ja/other.md
   - English:
     - Overview: en/index.md
     - Containers / Columns: en/containers.md
@@ -53,3 +45,11 @@ nav:
     - Dual Controller: en/dual-controller.md
     - Linked Driver: en/linked-driver.md
     - Other / Preferences: en/other.md
+  - 日本語:
+    - 概要: ja/index.md
+    - コンテナ / カラム: ja/containers.md
+    - スライダー / ジョイスティック: ja/sliders.md
+    - Quick View: ja/quick-view.md
+    - Dual Controller: ja/dual-controller.md
+    - Linked Driver: ja/linked-driver.md
+    - その他 / プリファレンス: ja/other.md
