@@ -1,8 +1,8 @@
 # GUI Slider
 
-Blender 4.2+ 対応のビューポートスライダーコントロールアドオンです。
+A Blender 4.2+ add-on for viewport slider controls.
 
-言語を選択してください / Select your language:
+Select your language:
 
 - [English Manual](en/index.md)
 - [日本語マニュアル](ja/index.md)
