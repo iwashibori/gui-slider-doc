@@ -4,6 +4,12 @@ GUI Slider is an add-on that lets you place slider- and joystick-style controlle
 
 ---
 
+## Supported Versions
+
+GUI Slider supports **Blender 4.2 and later**. It has been verified with **Blender 5.2.0 LTS**, including add-on registration, container and slider creation, and driver generation.
+
+---
+
 ## Basic Workflow
 
 1. Select the armature you want to add controllers to
