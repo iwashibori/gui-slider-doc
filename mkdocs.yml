@@ -45,6 +45,7 @@ nav:
     - Dual Controller: en/dual-controller.md
     - Linked Driver: en/linked-driver.md
     - Other / Preferences: en/other.md
+    - Changelog: en/changelog.md
   - 日本語:
     - 概要: ja/index.md
     - コンテナ / カラム: ja/containers.md
@@ -53,3 +54,4 @@ nav:
     - Dual Controller: ja/dual-controller.md
     - Linked Driver: ja/linked-driver.md
     - その他 / プリファレンス: ja/other.md
+    - 更新履歴: ja/changelog.md
