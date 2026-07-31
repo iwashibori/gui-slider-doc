@@ -28,6 +28,9 @@ GUI Slider supports **Blender 4.2 and later**. It has been verified with **Blend
 8. Adjust the range and appearance as needed
 9. Move the controller in the viewport and confirm that the value changes correctly
 
+!!! tip "A quicker entry point"
+    Once a container exists, steps 5 onwards can be skipped: **right-click the property** you want to drive and choose **Add New GUI Slider** to create a slider for it on the spot. See [How to Add a Slider](sliders.md#how-to-add-a-slider) for details.
+
 !!! tip "Base Scale"
     For **non-human-sized** models (small characters, giant mechs, etc.), set **Base Scale** from the panel menu (▼) to match your model's size. When creating a container, the scale value will be reflected in the input field.
 

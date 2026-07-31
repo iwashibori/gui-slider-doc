@@ -7,6 +7,39 @@ A slider is a 1D controller that drives a single target.
 !!! note
     The target type of a slider cannot be changed after creation.
 
+### How to Add a Slider
+
+There are two ways to create a slider. Both produce the same result.
+
+#### From the N Panel
+
+The standard route: pick a container first, then add. Use this when you want to set the range, appearance and mirroring all at once.
+
+1. In Pose mode, open the **N panel > GUI tab**.
+2. Select the destination container (or a slider inside it).
+3. Click **Add Slider**.
+4. Choose the target type, set the target, then click **OK**.
+
+#### From a Property Right-Click Menu
+
+When the property you want to drive is already in front of you, create the slider straight from it. No need to copy and paste a data path.
+
+1. Right-click the property you want to control.
+2. Choose **Add New GUI Slider**.
+3. Choose the destination container, enter a slider name, then click **OK**.
+
+The data path is captured by Blender itself, so nested properties such as those inside a material node tree resolve correctly.
+
+!!! tip "Not sure which container is which?"
+    The select button to the right of the container list makes the chosen container active in the viewport, which helps when the names alone are ambiguous.
+
+Enable **Open Detail Settings** to open the regular Add Slider dialog with the target property already filled in. Use this when you want to set the range or appearance in detail before creating the slider.
+
+!!! note "When the command appears"
+    This command appears only for properties whose standard Blender right-click menu provides **Add Driver**.
+
+To add another property that follows an existing slider, use **Add Linked GUI Slider** in the same menu. See [Linked Driver](linked-driver.md) for details.
+
 ### Target Types
 
 #### Shape Key
@@ -24,25 +57,13 @@ Controls a **custom property** on a bone.
 
 Controls **any Blender property** by data path. This is the most flexible target type.
 
-Right-click a property in Blender and use **Copy Full Data Path**, then paste that path into the field. Numeric properties (float / int / bool) are supported.
+Right-click a property in Blender and use **Copy Full Data Path**, then paste that path into the field. Numeric properties (float / int / bool) are supported. For array properties, the index is detected automatically from a trailing subscript such as `[0]`.
+
+!!! tip "You can skip the copy step"
+    If you are only going to create a slider for that property, adding it [from the right-click menu](#from-a-property-right-click-menu) is quicker — Blender captures and fills in the path for you.
 
 !!! warning
     String properties, and properties whose right-click menu does not show **Add Driver**, are not supported.
-
-### Add from a Property Right-Click Menu
-
-For a numeric property, you can create a slider directly from its right-click menu instead of copying and pasting its data path.
-
-1. Right-click the property you want to control.
-2. Choose **Add New GUI Slider**.
-3. Select the destination container, optionally enter a slider name, then click **OK**.
-
-Enable **Open Detail Settings** to open the regular Add Slider dialog with the target property already filled in. Use this when you want to set the range or appearance in detail before creating the slider.
-
-To add another property that follows an existing slider, choose **Add Linked GUI Slider** from the same right-click menu. Select the existing slider and its output range to add the property as a Linked Driver.
-
-!!! note "When the commands appear"
-    These commands appear only for properties whose standard Blender right-click menu provides **Add Driver**.
 
 ### Mirror
 

@@ -34,6 +34,17 @@ The output value of the Linked Driver when the slider is at its default (rest) p
 
 ## Adding and Managing
 
+### From a Property Right-Click Menu
+
+Right-click the property you want to drive and choose **Add Linked GUI Slider** to attach it to an existing slider as a Linked Driver. Pick the primary slider to follow, set the output range, then click **OK**.
+
+The primary slider can be found by searching its name; the list also shows which container each one belongs to.
+
+!!! note "When the command appears"
+    This command appears only when at least one slider already exists, and only for properties whose standard Blender right-click menu provides **Add Driver**.
+
+### Manage Linked Drivers Dialog
+
 Select a slider in the N-panel list and click the 🔗 button to open the **Manage Linked Drivers** dialog. Adding, editing, and deleting are all done within this dialog.
 
 - The upper list shows existing Linked Drivers
