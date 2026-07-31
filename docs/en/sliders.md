@@ -33,17 +33,16 @@ Right-click a property in Blender and use **Copy Full Data Path**, then paste th
 
 For a numeric property, you can create a slider directly from its right-click menu instead of copying and pasting its data path.
 
-1. Make sure an armature with a GUI Slider panel is in the current View Layer.
-2. Right-click the property you want to control.
-3. Choose **Add New GUI Slider**.
-4. Select the destination container, optionally enter a slider name, then click **OK**.
+1. Right-click the property you want to control.
+2. Choose **Add New GUI Slider**.
+3. Select the destination container, optionally enter a slider name, then click **OK**.
 
 Enable **Open Detail Settings** to open the regular Add Slider dialog with the target property already filled in. Use this when you want to set the range or appearance in detail before creating the slider.
 
 To add another property that follows an existing slider, choose **Add Linked GUI Slider** from the same right-click menu. Select the existing slider and its output range to add the property as a Linked Driver.
 
 !!! note "When the commands appear"
-    These commands appear only for properties whose standard Blender right-click menu provides **Add Driver**. **Add Linked GUI Slider** also requires at least one existing GUI Slider in the current View Layer.
+    These commands appear only for properties whose standard Blender right-click menu provides **Add Driver**.
 
 ### Mirror
 
